@@ -1,0 +1,72 @@
+/* 
+    Created on : 3 feb 2022, 19:03:56
+    Author     : XPC
+*/
+
+#encabezado{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    height: 8%;
+    width: 100%;
+    background-color: #499D8D;
+    color: white;
+}
+
+#encabezado h1{
+    display: inline;
+}
+
+.descripcion{
+    font-size: 14;
+}
+
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    height: 4%;
+    width: 100%;
+    background-color: #009999;
+    color: black;
+}
+
+#menu a:visited{
+    color: navy;
+}
+
+#menu a:hover{
+    background: green;
+    color: white;
+}
+
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    height: 81%;
+    width: 20%;
+    background-color: #000000;
+    color: black;
+}
+
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #006699;
+    color: black;
+    overflow: auto;
+}
+
+#piePagina{
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
+    height: 7%;
+    width: 100%;
+    background-color: #009999;
+    color: black;
+}
